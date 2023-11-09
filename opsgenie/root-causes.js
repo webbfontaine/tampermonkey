@@ -81,7 +81,12 @@
                     grp => {
                         console.log(grp);
                         var optgrp = document.createElement('optgroup');
-                        optgrp.label = grp.serviceName;
+			var name = grp.name;
+			if(!name){
+			   name = grp.serviceName
+			}
+                        optgrp.label = name;
+
                         select.appendChild(optgrp);
                         grp.values.forEach(val => {
                             var opt = document.createElement('option');
