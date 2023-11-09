@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Adding Root Cause dropdown to OpsGenie PostMortem form
-// @namespace    https://confluence.webbfontaine.com/display/IPM/OpsGenie+add+Root+Cause+dropdown+to+PostMortems
-// @version      0.1
+// @namespace    https://webbfontaine.atlassian.net/wiki/spaces/IPM/pages/43090048/OpsGenie+add+Root+Cause+dropdown+to+PostMortems
+// @version      0.2
 // @description  Adding Root Cause dropdown to OpsGenie PostMortem form
-// @author       Vahe Momjyan
+// @author       Vahe Momjyan / Eric chauvin
 // @match        https://webbfontaine.app.eu.opsgenie.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=webbfontaine.com
 // @grant        none
